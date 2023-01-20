@@ -1,10 +1,10 @@
 {
-    "title": "Chris Bongers | Senior Full Stack Developer",
-    "description": "Chris Bongers - Portfolio, Full stack developer",
-    "url": "https://chrisbongers.com/",
-    "author": "Chris Bongers",
-    "profile_pic": "/assets/chris.jpg",
-    "resume": "/assets/resume.pdf",
+    "title": "PortFolio Aurélien Jesson-Daniel",
+    "description": "Jesson--Daniel Aurélien - Portfolio, Full stack developer",
+    "url": "https://aurelienjesson-daniel.netlify.app/",
+    "author": "Jesson--Daniel Aurélien",
+    "profile_pic": "/assets/jason2.png",
+    "resume": "/assets/CV.pdf",
     "nav": [
         {
             "link": "#Projets",
@@ -15,11 +15,11 @@
             "name": "Compétences"
         },
         {
-            "link": "#Contacts",
+            "link": "#footer",
             "name": "Contact"
         }
     ],
-    "skills": {
+    "Compétences": {
         "comfortable": [
             {
                 "name": "HTML5",
@@ -30,34 +30,11 @@
                 "icon": "css3"
             },
             {
-                "name": "JavaScript",
-                "icon": "javascript"
-            },
-            {
-                "name": "TypeScript",
-                "icon": "typescript"
-            },
-            {
                 "name": "PHP",
                 "icon": "php"
             },
-            {
-                "name": "Laravel",
-                "icon": "laravel"
-            },
-            {
-                "name": "Angular",
-                "icon": "angularjs"
-            },
-            {
-                "name": "Ionic",
-                "icon": "ionic",
-                "type": "original"
-            },
-            {
-                "name": "Node.js",
-                "icon": "nodejs"
-            },
+            {"name": "Symfony",
+                "icon": "symfony"},
             {
                 "name": "Git",
                 "icon": "git"
@@ -67,23 +44,23 @@
                 "icon": "mysql"
             },
             {
-                "name": "SASS",
-                "icon": "sass"
-            },
-            {
-                "name": "Bootstrap",
-                "icon": "bootstrap"
-            },
-            {
-                "name": "Tailwind",
-                "icon": "tailwindcss"
+                "name":"C#",
+                "icon":"csharp"
+            },  {
+                "name": "Bash",
+                "icon": "bash"
+            },  {
+                "name": "Python",
+                "icon": "python"
+            },{
+                "name": "java",
+                "icon": "java"
             }
+            
+
+
         ],
         "mastering": [
-            {
-                "name": "Flutter",
-                "icon": "flutter"
-            },
             {
                 "name": "React",
                 "icon": "react"
@@ -91,126 +68,49 @@
             {
                 "name": "Next.js",
                 "icon": "nextjs"
+            },
+            {
+                "name": "Bootstrap",
+                "icon": "bootstrap"
+            }, {
+                "name": "Node.js",
+                "icon": "nodejs"
+            }, {
+                "name": "Angular",
+                "icon": "angularjs"
+            },         {
+                "name": "JavaScript",
+                "icon": "javascript"
             }
         ]
     },
-    "Compétences": [
+    "Projets": [
         {
-            "title": "Yaatree",
-            "description": "Our amazing puppy, who goes on all kinds of cool adventures",
-            "image": "/assets/NetFlouz1.png"
+            "title": "NetFlouz",
+            "description": "Un NetFlix par comme les autres... \n Développé en symfony et avec le framework Bootstrap ",
+            "image": "/assets/NetFlouz4.png",
+            "link": "/assets/RetexNetFlouz.pdf"
         },
         {
-            "title": "Daily Dev Tips",
-            "description": "My Daily Development Tip Blog!",
-            "image": "/assets/daily-dev-tips.jpg",
-            "link": "https://daily-dev-tips.com/"
+            "title": "Lowatem",
+            "description": "Une Intelligence artificiel qui vous permet de trouver le meilleur coup à jouer. \n Développé en Java",
+            "image": "/assets/Lowatem.png",
+            "link": "/assets/RetexLowatem.pdf"
         },
         {
-            "title": "My Neighbor Totoro",
-            "description": "Completely build in CSS",
-            "image": "/assets/totoro.jpg",
-            "link": "https://codepen.io/rebelchris/full/rNOWbbK"
+            "title": "Logiciel",
+            "description": "Un nuage d'idée... Un site static développé uniquement en HTML et CSS",
+            "image": "/assets/Logiciel.png",
+            "link": "/assets/LogicielRetex.pdf"
         },
         {
-            "title": "HQ Pack Service Center",
-            "description": "Symfony backend, with Angular front-end service center.",
-            "image": "/assets/hq-pack.jpg",
-            "link": "More info on request"
-        },
-        {
-            "title": "HQ Pack Service Center",
-            "description": "Symfony backend, with Angular front-end service center.",
-            "image": "/assets/hq-pack.jpg",
-            "link": "More info on request"
-        },
-        {
-            "title": "HQ Pack Service Center",
-            "description": "Symfony backend, with Angular front-end service center.",
-            "image": "/assets/hq-pack.jpg",
-            "link": "More info on request"
+            "title": "Fighter",
+            "description": "Jeu de combat développé en C# \n lors de l'AOP club jeu",
+            "image": "/assets/clubJeu.png",
+            "link": "/assets/RetexFighter.pdf"
         }
     ],
-    "journey": {
-        "2030": [
-            {
-                "title": "Senior full stack remote developer ☁️",
-                "description": "It's my dream to be a senior full-stack developer who can work remotely."
-            }
-        ],
-        "2021": [
-            {
-                "title": "Got married 🍾",
-                "description": "We got married in the mountains of South Africa"
-            },
-            {
-                "title": "Blogged for a year non-stop",
-                "description": "Every single day one article!"
-            }
-        ],
-        "2020": [
-            {
-                "title": "Got engaged 💍",
-                "description": "My beautiful wife Nicole said, Yes!"
-            },
-            {
-                "title": "Started daily-dev-tips 🚀",
-                "description": "I started my blog, where I write daily development tips to help new people!"
-            },
-            {
-                "title": "Moved back to South Africa ✈️",
-                "description": "This time for Laméco I moved back to South-Africa and fell in love with the country again."
-            }
-        ],
-        "2016": [
-            {
-                "title": "Senior developer 💪🏻",
-                "description": "I started as a senior developer at Laméco, working mainly on Symfony, Angular, and node.js projects. I also was responsible for mentoring students and new employees."
-            }
-        ],
-        "2015": [
-            {
-                "title": "Full-time app developer 📱",
-                "description": "I got hired by Bengees, a mobile app startup, to be the lead developer on an Ionic app!"
-            }
-        ],
-        "2014": [
-            {
-                "title": "First time to South-Africa 🇿🇦",
-                "description": "A nice perk of Engagement Factory was a work trip to South Africa, little did I know I would fall in love with the country."
-            },
-            {
-                "title": "Medior developer at engagement factory 🤓",
-                "description": "My hard work paid off, and I became a Medior Developer at Engagement Factory, picked up a lot of JavaScript, PHP and Marketing skills."
-            }
-        ],
-        "2013": [
-            {
-                "title": "Started my own company 🤯",
-                "description": "The moment I Graduated I also started my own company, which I still have on the side."
-            },
-            {
-                "title": "Graduated at Fontys 🎓",
-                "description": "Graduated the communication and multi-media Design course at Fontys Eindhoven."
-            }
-        ],
-        "2012": [
-            {
-                "title": "Won the Atos IT challenge 🏆",
-                "description": "In 2012 we entered the ATOS IT challenge, our team \"MultiLens\" finished first in this worldwide competition. My role in this project was project managing, development en thinking on features, and the global idea."
-            },
-            {
-                "title": "First tech job 🥳",
-                "description": "Started working as a PHP Developer for ScriptMotion, programming in CodeIgniter."
-            }
-        ],
-        "1989": [
-            {
-                "title": "I was born 👶",
-                "description": "This is where the whole journey started."
-            }
-        ]
-    },
+    
     "testimonials": [
         {
             "image": "/assets/nicole.jpg",
@@ -233,29 +133,25 @@
     ],
     "socials": [
         {
-            "link": "https://codepen.io/rebelchris",
-            "title": "Codepen",
-            "icon": "codepen"
-        },
-        {
-            "link": "https://twitter.com/DailyDevTips1",
-            "title": "Twitter",
-            "icon": "twitter"
-        },
-        {
-            "link": "https://www.linkedin.com/in/chrisbongers/",
+            "link": "https://www.linkedin.com/in/aur%C3%A9lien-jesson-daniel-4823a4235/",
             "title": "LinkedIn",
             "icon": "linkedin"
         },
         {
-            "link": "https://www.facebook.com/chris.bongers.92",
-            "title": "Facebook",
-            "icon": "facebook"
-        },
-        {
-            "link": "https://github.com/rebelchris",
+            "link": "https://github.com/Aure33",
             "title": "GitHub",
             "icon": "github"
+        },
+
+        {
+            "link": "#footer",
+            "title": "Twitter",
+            "icon": "twitter"
+        },
+        {
+            "link": "mailto:aurejd33@gmail.com",
+            "title": "Email",
+            "icon": "email"
         }
     ]
 }

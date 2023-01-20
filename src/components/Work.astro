@@ -2,12 +2,12 @@
 import WorkItem from './WorkItem.astro';
 import site from "../data/site.json";
 const title = `Listes de certains de mes projets :`;
-const {Compétences} = site;
+const {Projets} = site;
 ---
-<section id="Compétences">
+<section id="Projets">
     <h3>{title}</h3>
     <div class="portfolio-grid">
-        {Compétences.map((item) => (
+        {Projets.map((item) => (
             <WorkItem item={item} />
         ))}
     </div>

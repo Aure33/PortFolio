@@ -1,32 +1,32 @@
 ---
 import site from "../data/site.json";
 import SkillItem from './SkillItem.astro';
-const title = `These are skills I've mastered over the years`;
-const comfortable = `Skills I'm super comfortable with`;
-const mastering = `Skills I'm mastering`;
-const {skills} = site;
+const title = `Mes 2 années d'études m'ont appris a découvrir différents langages`;
+const comfortable = `Ceux avec lesquels j'ai désormais un bon niveau de maitrise`;
+const mastering = `Ceux que je suis entrain d'apprendre`;
+const {Compétences} = site;
 ---
-<section id="skills">
+<section id="Compétences">
     <h2>{title}</h2>
     
     <strong>{comfortable}</strong>
     <br />
-    <div class="skills">
-        {skills.comfortable.map((item) => (
+    <div class="Compétences">
+        {Compétences.comfortable.map((item) => (
             <SkillItem item={item} />
         ))}
     </div>
 
     <strong>{mastering}</strong>
     <br />
-    <div class="skills">
-        {skills.mastering.map((item) => (
+    <div class="Compétences">
+        {Compétences.mastering.map((item) => (
             <SkillItem item={item} />
         ))}
     </div>
 </section>
 <style lang="scss">
-.skills {
+.Compétences {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin: 1rem 0;
